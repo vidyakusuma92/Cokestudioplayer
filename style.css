@@ -1,0 +1,50 @@
+.container{
+  text-align: center;
+}
+
+#heading {
+  font-family: cursive;
+  font-weight: bolder;
+  font-variant: small-caps;
+}
+
+.search-bar {
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid;
+  text-align: center;
+}
+
+input[type=text] {
+    width: 160px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('searchicon.png'); */
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 230px;
+    border-radius: 30px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.card {
+  width: auto;
+  height: 125px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  background-color: #FFFFE0;
+}
