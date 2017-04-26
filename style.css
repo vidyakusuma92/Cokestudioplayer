@@ -41,10 +41,16 @@ img{
 }
 
 .card {
-  width: auto;
+  width: 400px;
   height: 125px;
   border: 1px solid;
   padding: 10px;
   margin: 10px;
   background-color: #FFFFE0;
+  box-shadow: 3px 4px 15px grey;
+}
+
+.media-body{
+  text-align: left;
+  padding: 10px;
 }
